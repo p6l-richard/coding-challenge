@@ -16,6 +16,7 @@ export interface SidebarProps {
 
 export function Sidebar(props: SidebarProps) {
 
+  const { durationOptions, eventTypes } = props;
   const [selectedDuration, setSelectedDuration] = useState<string>();
   const [selectedEventType, setSelectedEventType] = useState<EventType>();
   const [placeholder, setPlaceholder] = useState<string>();
@@ -37,7 +38,7 @@ export function Sidebar(props: SidebarProps) {
           defaultValue='30'
           value={selectedDuration}
         >
-          {props.durationOptions.map((option: Option) => (
+          {durationOptions && durationOptions.map((option: Option) => (
             <option key={option.key} value={option.key}>{option.value}</option>
           ))}
         </select>
@@ -53,7 +54,7 @@ export function Sidebar(props: SidebarProps) {
           value={selectedEventType}
           onChange={event => setSelectedEventType(Number(event.target.value))}
         >
-          {props.eventTypes.map((option: Option) => (
+          {eventTypes && eventTypes.map((option: Option) => (
             <option key={option.key} value={option.key}>{option.value}</option>
           ))}
         </select>
