@@ -1,11 +1,16 @@
 // import styles from './app.module.css';
 // import { Sidebar } from '@coding-challenge/ui';
 
+import {Sidebar} from '@coding-challenge/ui';
+import {DURATION_IN_MINUTES, EVENT_TYPES} from '../constants/main';
+
 export function App() {
   return (
     <div className="flex justify-center items-center h-screen w-screen">
-      {/* Replace the below div with your sidebar component from @coding-challenge/ui! */}
-      <div className="bg-blue-500">Replace Me!</div>
+      <Sidebar
+        durationOptions={DURATION_IN_MINUTES}
+        eventTypes={EVENT_TYPES}
+      />
     </div>
   );
 }
