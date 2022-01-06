@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@coding-challenge/data": ["libs/data/src/index.ts"],
       "@coding-challenge/ui": ["libs/ui/src/index.ts"]
     }
   },

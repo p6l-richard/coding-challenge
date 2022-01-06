@@ -2,7 +2,7 @@
 // import { Sidebar } from '@coding-challenge/ui';
 
 import {Sidebar} from '@coding-challenge/ui';
-import {DURATION_IN_MINUTES, EVENT_TYPES} from '../constants/main';
+import {DURATION_IN_MINUTES, EVENT_TYPES} from '@coding-challenge/data';
 
 export function App() {
   return (
