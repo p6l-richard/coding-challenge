@@ -1,7 +1,9 @@
 import {useState} from 'react';
 
-import './sidebar.module.css';
 import {EventType} from '@coding-challenge/data';
+
+import {CLOSE_ICON} from './constants/icons';
+import './sidebar.module.css';
 
 interface Option {
   key: any;
@@ -25,7 +27,7 @@ export function Sidebar(props: SidebarProps) {
     <div className="w-64 h-full bg-slate-50 pt-20 pr-5 pl-5">
       <div className="flow-root">
         <button className="float-right w-10 h-10 bg-red-500 rounded-lg text-white drop-shadow-md ...">
-          <i className="fa fa-close" />
+          {CLOSE_ICON}
         </button>
       </div>
       <div className="mt-4">
