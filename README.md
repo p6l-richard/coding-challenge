@@ -4,7 +4,7 @@ Welcome to the React coding challenge using [Nx](https://nx.dev).
 
 ## Your task
 
-Update the [sidebar component](libs/ui/src/lib/sidebar.tsx) and import it to [the app](apps/webextension/src/app/app.tsx).
+Update the [sidebar component](libs/ui/src/lib/sidebar/sidebar.tsx) and import it to [the app](apps/webextension/src/app/app.tsx).
 
 Requirements:
 

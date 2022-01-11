@@ -2,7 +2,7 @@ import {useState} from 'react';
 
 import {EventType} from '@coding-challenge/data';
 
-import {CLOSE_ICON} from './constants/icons';
+import {CLOSE_ICON} from '../constants/icons';
 import './sidebar.module.css';
 
 interface Option {

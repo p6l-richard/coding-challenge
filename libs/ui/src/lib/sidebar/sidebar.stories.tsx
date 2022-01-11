@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/react';
 
-import {DURATION_IN_MINUTES, EVENT_TYPES} from '../../../data/src';
+import {DURATION_IN_MINUTES, EVENT_TYPES} from '../../../../data/src';
 
 import { Sidebar, SidebarProps } from './sidebar';
 
