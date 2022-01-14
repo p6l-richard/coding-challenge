@@ -11,7 +11,6 @@ module.exports = {
   ],
   presets: [],
   darkMode: 'media', // or 'class'
-  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     screens: {
       sm: '640px',
