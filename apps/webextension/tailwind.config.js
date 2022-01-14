@@ -5,11 +5,13 @@ module.exports = {
   content: [
     // // look for source files in the app folder
     join(__dirname, './src/**/*.{html,ts,tsx}'),
+    join(__dirname, '../../libs/ui/src/**/*.{html,ts,tsx}'),
     // but then also look for source files in all the libs that the app depends on
     ...createGlobPatternsForDependencies(__dirname),
   ],
   presets: [],
   darkMode: 'media', // or 'class'
+  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     screens: {
       sm: '640px',
