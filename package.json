@@ -9,12 +9,6 @@
   },
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.16",
-=======
->>>>>>> 4336c2c801d68a12b44004c530febe3d1e5e2147
     "autoprefixer": "^10.4.1",
     "core-js": "^3.6.5",
     "postcss": "^8.4.5",
@@ -22,10 +16,6 @@
     "react-dom": "17.0.2",
     "regenerator-runtime": "0.13.7",
     "tailwindcss": "^3.0.11",
-<<<<<<< HEAD
-    "tailwindcss-font-inter": "^3.0.1",
-=======
->>>>>>> 4336c2c801d68a12b44004c530febe3d1e5e2147
     "tslib": "^2.0.0"
   },
   "devDependencies": {

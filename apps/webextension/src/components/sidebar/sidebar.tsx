@@ -1,11 +1,11 @@
-import './sidebar.module.css';
-
 /* eslint-disable-next-line */
+
 export interface SidebarProps {}
 
 export function Sidebar(props: SidebarProps) {
+  
   return (
-     <div className="font-inter bg-slate-50 flex flex-col p-5 max-w-sm rounded shadow-md">
+    <div className="font-inter bg-slate-50 flex flex-col p-5 max-w-sm rounded shadow-md">
       <div className="flex justify-end">
       </div>
       <div className="mb-2 mt-2">
